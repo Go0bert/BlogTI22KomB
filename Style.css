@@ -207,27 +207,17 @@ body{
     margin: 0px 5% 1% 5%;
 }
 @media screen and (min-width: 770px) {
-    .Main_image{
-        height: 65%;
-    }
+    .Main_image{height: 65%;}
     .Main_description{
         font-family: Gill Sans MT;
-        font-size: 30px;
-    }
-    #Main_container{
-        height: 750px;
-    }
+        font-size: 30px;}
+    #Main_container{height: 750px;}
 }@media screen and (max-width: 769px) {
-    .Main_image{
-        height: 40%;
-    }
+    .Main_image{height: 40%;}
     .Main_description{
         font-family: Gill Sans MT;
-        font-size: 20px;
-    }
-    #Main_container{
-        height: 450px;
-    }
+        font-size: 20px;}
+    #Main_container{height: 450px;}
 }
 #Search_box{
     margin: 0% 17% 0% 17%;
@@ -237,7 +227,7 @@ body{
 }
 #Search_box input[type=text]{
     font-family: Helvetica;
-    font-size: 25px;
+    font-size: 20px;
     width:100%;
     border-radius: 3px 0px 0px 3px;
     border: 1px black solid;
