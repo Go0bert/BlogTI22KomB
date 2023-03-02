@@ -316,6 +316,10 @@ body{
     background-color: rgb(209, 209, 214);
     text-align: center;
 }
+.Biodata_title{
+    font-family: Gill Sans MT;
+    text-shadow: 0px 2px 0px rgba(0, 0, 0, 0.404);
+}
 .Biodatarows{
     display:flex;
     flex-direction: row;
@@ -328,9 +332,21 @@ body{
 }
 .Biodatacolumn a{
     width: 300px;
-    height: 30px;
-    margin: 5px 5px 5px 5px;
-    background-color: gray;
+    height: auto;
+    margin: 10px 7px 10px 7px;
+    padding:10px 0px 10px 0px;
+    background-color: rgb(173, 173, 173);
+    text-decoration:none;
+    font-size: 15px;
+    font-family: Helvetica;
+    font-weight: 600;
+    text-align:center;
+    color: black;
+    border-radius: 2px;
+    box-shadow: 0px 5px 0px rgba(0, 0, 0, 0.466);
+}
+.Biodatacolumn a:hover{
+    background-color: rgb(37, 206, 60);
 }
 @media screen and (min-width: 640px) {
     .Biodatarows{flex-direction: row;}
