@@ -179,6 +179,15 @@ body{
     font-size: 15px;
     font-family: Gill Sans MT;
 }
+@media screen and (min-width: 650px) {
+    .Social_media a{width: 45px;height: 45px;}
+}
+@media screen and (max-width: 649px) {
+    .Social_media a{width: 30px;height: 30px;}
+    .ig{background-size: 20px;}
+    .git{background-size: 20px;}
+    .web{background-size: 20px;}
+}
 
 /* Code Home Page */
 #Main_container{
@@ -250,7 +259,7 @@ body{
 
 /*For library*/
 #Main_container_library{
-    height: 450px;
+    height: auto;
     background-color: rgb(209, 209, 214);
     text-align: center;
 }
@@ -301,13 +310,25 @@ body{
     background-color: rgb(238, 35, 35);
     margin: 0px 15px 0px 0px;
 }
+.Content_image3{
+    width: 100px;
+    height: auto;
+    background-image: url(Assets/Zip.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 70px;
+    background-color: rgb(55, 197, 20);
+    margin: 0px 15px 0px 0px;
+}
 @media screen and (min-width: 800px) {
     .Content_image1{width: 100px;}
     .Content_image2{width: 100px;}
+    .Content_image3{width: 100px;}
 }
 @media screen and (max-width: 799px) {
-    .Content_image1{width: 0px;}
-    .Content_image2{width: 0px;}
+    .Content_image1{width: 3px; background-image: none;}
+    .Content_image2{width: 3px; background-image: none;}
+    .Content_image3{width: 3px; background-image: none;}
 }
 
 /*Biodata*/
@@ -348,10 +369,10 @@ body{
 .Biodatacolumn a:hover{
     background-color: rgb(37, 206, 60);
 }
-@media screen and (min-width: 640px) {
+@media screen and (min-width: 650px) {
     .Biodatarows{flex-direction: row;}
 }
-@media screen and (max-width: 639px) {
+@media screen and (max-width: 649px) {
     .Biodatarows{flex-direction: column;}
     .Biodatacolumn a{width: 100%;}
 }
