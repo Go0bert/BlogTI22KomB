@@ -60,13 +60,14 @@ body{
     height: 100%;
     padding-bottom: 15%;
     text-align: center;
-    background-image: url(https://images.unsplash.com/photo-1517373263199-baee103d2980?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8MXx8fGVufDB8fHx8&w=1000&q=80);
+    background-image: url(https://history-computer.com/wp-content/uploads/2021/09/Harvard-Mark-1-in-museum-1.jpg);
     background-size:cover;
     background-position: 50% 100%;
 }#Title_container h1{
     padding-top: 15%;
     font-family: Gill Sans MT;
-    color: white;
+    color: rgb(0, 0, 0);
+    text-shadow: 0px 0px 10px rgb(134, 255, 123);
     font-size: 200%;
 }
 #Navbar{
@@ -99,11 +100,13 @@ body{
 }
 #Author_name{
     background-color: rgb(155, 155, 155);
+    background-image: url(./Assets/kelompok_article_background.png);
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 20px 1px 20px 1px;
     font-family: Helvetica;
     font-size: 10px;
+    color: rgb(224, 224, 224);
 }
 #Author_name h1{
     font-size: 20px;
@@ -119,9 +122,10 @@ body{
 
 #Article{
     text-align: center;
-    padding: 40px 40px 40px 40px;
+    padding: 40px 130px 40px 130px;
     margin: 0%;
     background-color: rgb(209, 209, 214);
+    box-shadow: -0px 0px 200px 10px  rgba(209, 209, 214, 0.747);
     font-family: Helvetica;
     font-size: 10px;
     text-align: justify;
