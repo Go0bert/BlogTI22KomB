@@ -144,6 +144,13 @@ body{
 #Article a{
     text-decoration: none;
 }
+@media screen and (min-width: 700px) {
+    #Article{padding: 40px 130px 40px 130px;}
+}
+@media screen and (max-width: 699px) {
+    #Article{padding: 40px 10px 40px 10px;}
+}
+
 
 #Footer{
     background-color: rgb(66, 66, 70);
